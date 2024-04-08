@@ -1,0 +1,29 @@
+.header {
+display: flex;
+text-align: center;
+color: rgb(231, 161, 227);
+font-family:cursive;
+flex-wrap: nowrap;
+}
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 50%
+}
+#textbox {
+    display: flex;
+    font-weight: 700;
+    font-size: 200px;
+    font-family: cursive;
+    justify-self: right;
+    text-decoration-color: darkblue;
+}
+
+.outsidebox{
+    display: flex;
+    border: 5px transparent solid;
+    width: 100vw;
+    height: 1vhs;
+}
